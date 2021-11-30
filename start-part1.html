@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>BurgerBase</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <!-- nav bar -->
+        <nav>
+            <div class="logo">
+                <i class="fas fa-hamburger"></i>
+                <a href="#">BurgerBase</a>
+            </div>
+            <ul>
+                <li><a href="#title">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#c ontact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- header -->
+        <header id="title">
+            <div class="title-content">
+                <h1>Burger Base</h1>
+            </div>
+            <div class="title-content">
+                <a href="#about" class="button">Find out more</a>
+            </div>
+        </header>
+
+        <!-- quote section -->
+        <section class="quote">
+            <p>"I still eat a burger at a counter with ketchup dripping down my face." - Scarlett Johansson</p>
+        </section>
+
+        
+        <main>
+            <!-- about -->
+            <article id="about">
+                <h2>Our Story</h2>
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ad, doloremque fugiat alias cumque maiores nisi, asperiores deleniti atque debitis minima inventore nulla in dicta culpa enim, laudantium officia neque.</p>
+            </article>
+            
+            <!-- images -->
+            <section class="photos">
+                <img src="img/img-2.jpg" alt="A burger">
+                <img src="img/img-3.jpg" alt="A burger">
+                <img src="img/img-4.jpg" alt="A burger">
+                <img src="img/img-5.jpg" alt="A burger">
+            </section>
+        </main>
+        
+        <!-- quote section -->
+        <section class="quote">
+            <p>"I always say, Eat clean to stay fit, have a burger to stay sane." - Gigi Hadid</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+
+            <form action="https://formsubmit.co/11d287d1a62b6fc596d0a7adbe9e7894" method="post">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required autofocus>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="Comments">Comments</label>
+                <textarea name="" id="Comments" cols="5" rows="10"></textarea>            
+                
+                <input type="submit" value="submit">
+            </form>
+        </section>
+
+        <!-- footer -->
+        <footer id="footer">
+            <p>BURGERBASE &copy; 2021</p>
+        </footer>
+    </div>
+    
+
+
+    <!-- scripts -->
+    <script src="app.js"></script>
+</body>
+</html>
